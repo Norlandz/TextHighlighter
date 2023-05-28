@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>TextHighlighter_Cev Instructions</title>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>  --> 
-<!-- <script src="https://cdn.jsdelivr.net/npm/leader-line@1.0.7/leader-line.min.js"></script> --> 
-<!-- <link href="Leaderline line svg path Hover.css" rel="stylesheet" /> -->
-<style></style>
-</head>
-<body>
 <h1>TextHighlighter_Cev</h1>
 <ul>
   <li>
@@ -39,7 +28,7 @@
     <h3>to_use</h3>
     <ul style="font-family: Consolas">
       <li>click <strong>icon</strong> || @hotkey[!g] -> activate extension (auto focus)</li>
-      <li>click <strong>Run Highlight</strong> || @hotkey[!j] -> find & highlight the words</li>
+      <li>click <strong>Run Highlight</strong> || @hotkey[!k] -> find & highlight the words</li>
       <li>right click icon > <strong>option</strong> page -> set default options</li>
       <li>click on the <strong>highlight position marker</strong> -> <strong>scroll</strong> to the found word</li>
       <li><strong>scroll</strong> on the <strong>regex word stat table</strong> -> scroll to next/prev found word</li>
@@ -64,10 +53,3 @@
     </ol>
   </li>
 </ul>
-<!-- <script src="https://cdn.jsdelivr.net/npm/tocbot@4.20.0/dist/tocbot.min.js"></script>  --> 
-<script>
-      let i = 1;
-      console.log(i);
-    </script>
-</body>
-</html>
