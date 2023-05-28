@@ -1,0 +1,68 @@
+{
+  "manifest_version": 3,
+  "name": "TextHighlighter_Cev",
+  "description": "Highlight Text in a Webpage",
+  "version": "0.2.5.1",
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    
+    
+    "default_icon": "icon.png",
+    "default_title": "TextHighlighter_Cev"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        
+        
+        "./dist/main.js"
+      ],
+      "css": [
+        "./scripts/hltNt_ObjColor__Cev.css"
+      ],
+      "matches": [
+        
+        
+        "http://*/*",
+        "https://*/*",
+        "file:///*/*"
+        
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "./scripts/background.js"
+    
+    
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  
+  
+  
+  "commands": {
+    "activate-ext": {
+      "suggested_key": {
+        "default": "Alt+G"
+        
+      },
+      "description": "activate-ext"
+    },
+    "run-highlight": {
+      "suggested_key": {
+        "default": "Alt+K"
+        
+      },
+      "description": "run-highlight"
+    }
+  },
+  "options_page": "./src/options.html"
+  
+  
+  
+}

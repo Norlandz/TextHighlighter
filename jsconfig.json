@@ -1,0 +1,20 @@
+{
+  "typeAcquisition": {
+    "include": [
+      "jquery"
+    ]
+  },
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "lib": [
+      "ES2022",
+      "DOM"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Empty_Title</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>  -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/leader-line@1.0.7/leader-line.min.js"></script> -->
+    <!-- <link href="Leaderline line svg path Hover.css" rel="stylesheet" /> -->
+    <style></style>
+  </head>
+  <body>
+    <div id="eltId_PopupHtml" style="all: initial;">
+      <div>
+        TextHighlighter_Cev
+      </div>
+      <div>Put the Selector that specifies Regions to Search & Match<br>
+        <textarea id="hltWrap_sel" rows="1" style="width: 90%;"></textarea>
+      </div>
+      <div>
+        Put the Regex of the Text you want to search here.<br>
+        For each Text you want to search, separate it by a newline.<br>
+        <textarea id="hltWrap_arrRegexWord" style="overflow: scroll; white-space: pre; width: 90%;"></textarea>
+        <br>
+        <input type="checkbox" id="id_cb_MatchWholeWord">
+        <label for="id_cb_MatchWholeWord">Match Whole Word</label>
+        <br>
+        <input type="checkbox" id="id_cb_PlainMatchNoRegex">
+        <label for="id_cb_PlainMatchNoRegex">Plain Match (No Regex)</label>
+        <br>
+        <input type="checkbox" id="id_cb_Ws2ss">
+        <label for="id_cb_Ws2ss">Convert white space to &bsol;s+ in regex (experimental)</label>
+        <br>
+        <input type="checkbox" id="id_cb_CaseInsensitive">
+        <label for="id_cb_CaseInsensitive">Case Insensitive</label>
+        <!-- <br> -->
+        <!-- <button id="id_hltWrap_forArrRegexWord_inTextArea">Run Highlight</button> -->
+      </div>
+    </div>
+    <br>
+    <br>
+    <span id="id_SaveStatus">XXX</span>
+    <br>
+    <br>
+    <button id="id_RunSave">Save Options</button>
+    <br>
+    <br>
+    <button id="id_RunReset">Reset Options</button>
+    <script src="./options.js"></script> 
+  </body>
+</html>

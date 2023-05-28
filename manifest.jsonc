@@ -1,0 +1,68 @@
+{
+  "manifest_version": 3,
+  "name": "TextHighlighter_Cev",
+  "description": "Highlight Text in a Webpage",
+  "version": "0.2.5.1",
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    // "default_popup": "./dist/main.html",
+    // "default_popup": "./src/index.html",
+    "default_icon": "icon.png",
+    "default_title": "TextHighlighter_Cev"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        // "./node_modules/jquery/dist/jquery.min.js"
+        // "scripts/content.js"
+        "./dist/main.js"
+      ],
+      "css": [
+        "./scripts/hltNt_ObjColor__Cev.css"
+      ],
+      "matches": [
+        // "https://developer.chrome.com/docs/extensions/*",
+        // "https://developer.chrome.com/docs/webstore/*",
+        "http://*/*",
+        "https://*/*",
+        "file:///*/*"
+        // "*://*/*"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "./scripts/background.js"
+    // "type": "module"
+    // "service_worker": ["./node_modules/jquery/dist/jquery.min.js", "./scripts/background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  // "host_permissions": [
+  //   "<all_urls>"
+  // ],
+  "commands": {
+    "activate-ext": {
+      "suggested_key": {
+        "default": "Alt+G"
+        // "mac": "Command+G"
+      },
+      "description": "activate-ext"
+    },
+    "run-highlight": {
+      "suggested_key": {
+        "default": "Alt+K"
+        // "mac": "Option+K"
+      },
+      "description": "run-highlight"
+    }
+  },
+  "options_page": "./src/options.html"
+  // "content_security_policy": {
+  //   "extension_pages": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  // }
+}

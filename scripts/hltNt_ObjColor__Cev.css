@@ -1,0 +1,90 @@
+.hlMs {
+  --rgba-rgb: aqua;
+  --rgba-opa: 0.5;
+  --color-main: rgba(var(--rgba-rgb), var(--rgba-opa));
+  background-color: var(--color-main);
+}
+
+.colorGreenGrass {
+  --rgba-rgb: 212, 245, 198;
+}
+
+.colorGreenDryGrass {
+  --rgba-rgb: 217, 221, 170;
+}
+
+.colorGreenDryGrassDim {
+  --rgba-rgb: 100, 130, 49;
+}
+
+.colorGreenStimulating {
+  --rgba-rgb: 162, 240, 197;
+}
+
+.colorYellowPaint {
+  --rgba-rgb: 236, 218, 121;
+}
+
+.colorGoldenishKey {
+  --rgba-rgb: 250, 236, 114;
+}
+
+.colorGoldenishKeyDim {
+  --rgba-rgb: 193, 181, 90;
+}
+
+.colorRedZao {
+  --rgba-rgb: 236, 116, 82;
+}
+
+.colorRedZaoDim {
+  --rgba-rgb: 209, 73, 34;
+}
+
+.colorOrange {
+  --rgba-rgb: 255, 165, 0;
+}
+
+.colorBluePure {
+  --rgba-rgb: 128, 128, 255;
+}
+
+.colorTealComment {
+  --rgba-rgb: 132, 194, 201;
+}
+
+.colorTealLight {
+  --rgba-rgb: 176, 219, 223;
+}
+
+.colorQing {
+  --rgba-rgb: 192, 249, 255;
+}
+
+.colorRedPink {
+  --rgba-rgb: 250, 210, 213;
+}
+
+.colorMagenta {
+  --rgba-rgb: 240, 104, 229;
+}
+
+.colorPurple {
+  --rgba-rgb: 211, 175, 236;
+}
+
+.colorPurpleCream {
+  --rgba-rgb: 237, 219, 255;
+}
+
+.colorPurpleDimStrong {
+  --rgba-rgb: 174, 142, 183;
+}
+
+.colorGrey {
+  --rgba-rgb: 161, 161, 161;
+}
+
+.colorBrownLight {
+  --rgba-rgb: 227, 211, 181;
+}
