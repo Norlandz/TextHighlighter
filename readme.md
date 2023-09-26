@@ -42,6 +42,9 @@
       <li>try not to search on <strong><code>body / div</code></strong> -- its <strong>laggy</strong> & potential buggy</li>
       <li>_ the <strong>order</strong> of matched words _ is <strong>messy</strong> -- because the way <strong>selector</strong> works (maybe)</li>
     </ul>
+    <ul>
+      <li>I know the On/Off has some issues, could have fixed it in code related to `tabId: tab.id,` / `tabs[0]`, too lazy to do so...</li>
+    </ul>
   </li>
   <li>
     <h3>installation</h3>
